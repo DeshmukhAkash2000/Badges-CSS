@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badges-CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="line1">
+        <p>Text with a badge</p>
+        <p class="badge1">8</p>
+    </div>
+    <div class="line2">
+        <p>Text with large Badge</p>
+        <p class="badge2">1</p>
+    </div>
+    <div class="line3">
+        <p>Button with a badge on the left<span id="numberline3">8</span><button id="actionbtn">Action</button></p>
+    </div>
+    <div class="line4">
+        <p>Button toggle badges visibility <button id="hide">Hide</button><span id="numberline4">7</span></p>
+    </div>
+    <div class="line5">
+        <p>Icon with a badge <i style="font-size:24px" class="fa">&#xf015;</i><span id="numberline5">15</span></p>
+    </div>
+
+    <script>
+        const hideBtn = document.querySelector("#hide");
+        const hideValue = document.querySelector("#numberline4");
+        let count = 0;
+        function hideFunction(){
+            if(count===0){
+                hideValue.style.visibility = "visible"
+                count = 1
+            }else{
+                hideValue.style.visibility = "hidden"
+                count = 0
+            }
+        }
+        hideBtn.addEventListener("click",hideFunction)
+    </script>
+</body>
+</html>

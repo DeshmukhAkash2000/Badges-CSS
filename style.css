@@ -1,0 +1,81 @@
+.line1{
+    display: flex;
+}
+
+.line2{
+    display: flex;
+}
+
+.badge1{
+    background-color: blue;
+    padding: .1rem .4rem .1rem .4rem;
+    border-radius: 50%;
+    position: relative;
+    top: -0.6rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.badge2{
+    background-color: blue;
+    padding: .3rem .6rem .3rem .6rem;
+    border-radius: 50%;
+    position: relative;
+    top: -0.5rem;
+    right: .3rem;
+    color: #fff;
+    font-weight: bold;
+}
+#numberline3{
+    background-color: rgb(214, 72, 183);
+    padding: .1rem .4rem .1rem .4rem;
+    border-radius: 50%;
+    position: relative;
+    top: -0.7rem;
+    left: .3rem;
+    color: #fff;
+    font-weight: bold;
+    /* margin-right: 3rem; */
+}
+#actionbtn{
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    padding: .2rem .4rem .2rem .4rem;
+    border-radius: .2rem;
+    /* margin-left: -3.3rem; */
+}
+#actionbtn:active{
+    background-color: rgb(197, 166, 166);
+}
+
+#numberline4{
+    background-color: blue;
+    padding: .1rem .4rem .1rem .4rem;
+    border-radius: 50%;
+    position: relative;
+    top: -0.7rem;
+    right: .3rem;
+    color: #fff;
+    font-weight: bold;
+}
+#hide{
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: .2rem .5rem .2rem .5rem;
+    box-shadow: 2px 2px 2px 2px rgb(153, 147, 147);
+}
+#hide:active{
+    background-color: rgb(163, 139, 139);
+}
+#numberline5{
+    background-color: rgb(214, 72, 183);
+    padding: .1rem .2rem .1rem .2rem;
+    border-radius: 50%;
+    position: relative;
+    top: -0.7rem;
+    right: .6rem;
+    color: #fff;
+    font-weight: bold;
+}
